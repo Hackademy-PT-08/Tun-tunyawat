@@ -1,0 +1,1 @@
+console.log(`Il tuo nome e ${name}, il tuo cognome e ${surname}, e hai ${age} anni`);
