@@ -205,3 +205,133 @@
 // console.log(maxVoteResult);
 // console.log(maxPrezzo);
 // console.log(resulImg);
+
+
+
+
+// ESERCIZIO 8-3
+
+// const person = {
+// 	"gender": "female",
+// 	"name": {
+// 	  "title": "Miss",
+// 	  "first": "Jennie",
+// 	  "last": "Nichols"
+// 	},
+// 	"location": {
+// 	  "street": {
+// 		"number": 8929,
+// 		"name": "Valwood Pkwy",
+// 	  },
+// 	  "city": "Billings",
+// 	  "state": "Michigan",
+// 	  "country": "United States",
+// 	  "postcode": "63104",
+// 	  "coordinates": {
+// 		"latitude": "-69.8246",
+// 		"longitude": "134.8719"
+// 	  },
+// 	  "timezone": {
+// 		"offset": "+9:30",
+// 		"description": "Adelaide, Darwin"
+// 	  }
+// 	},
+// 	"email": "jennie.nichols@example.com",
+// 	"login": {
+// 	  "uuid": "7a0eed16-9430-4d68-901f-c0d4c1c3bf00",
+// 	  "username": "yellowpeacock117",
+// 	  "password": "addison",
+// 	  "salt": "sld1yGtd",
+// 	  "md5": "ab54ac4c0be9480ae8fa5e9e2a5196a3",
+// 	  "sha1": "edcf2ce613cbdea349133c52dc2f3b83168dc51b",
+// 	  "sha256": "48df5229235ada28389b91e60a935e4f9b73eb4bdb855ef9258a1751f10bdc5d"
+// 	},
+// 	"dob": {
+// 	  "date": "1992-03-08T15:13:16.688Z",
+// 	  "age": 30
+// 	},
+// 	"registered": {
+// 	  "date": "2007-07-09T05:51:59.390Z",
+// 	  "age": 14
+// 	},
+// 	"phone": "(272) 790-0888",
+// 	"cell": "(489) 330-2385",
+// 	"id": {
+// 	  "name": "SSN",
+// 	  "value": "405-88-3636"
+// 	},
+// 	"picture": {
+// 	  "large": "https://randomuser.me/api/portraits/men/75.jpg",
+// 	  "medium": "https://randomuser.me/api/portraits/med/men/75.jpg",
+// 	  "thumbnail": "https://randomuser.me/api/portraits/thumb/men/75.jpg"
+// 	},
+// 	"nat": "US",
+// 	showNameSurname: function(){
+// 		console.log(`nome: ${person.name.first} - cognome: ${person.name.last}`)
+// 	},
+// 	showAdrees: function(){
+// 		console.log(`Via = ${person.location.street.name}, numero = ${person.location.street.number}, Città = ${person.location.city}, Stato = ${person.location.state}, Codice Postale = ${person.location.postcode}, Paese = ${person.location.country}, `)
+// 	}
+// }
+
+
+// let emailObj = {
+// 	email: [],
+// 	username : [],
+// 	password : []
+// }
+
+// function showEmail(){
+
+// 	let mail = person.email;
+// 	let userName = person.login.username;
+// 	let pass = person.login.password;
+
+// 	emailObj.email.push(mail);
+// 	emailObj.username.push(userName);
+// 	emailObj.password.push(pass);
+
+// 	console.log(emailObj);
+// }
+
+
+// function showEmailObj(){
+
+// 	console.log(`<h1>username dell'utente: ${emailObj.username}</h1>`);
+// 	console.log(`<p>email dell'utente: ${emailObj.email}</p>`);
+// 	console.log(`<small>password dell'utente: ${emailObj.password}</small>`)
+
+	
+// }
+
+
+// let cardBoostrap = `
+// <div class="card" style="width: 18rem;">
+// 	<!-- nel src metterci l'url ad una delle pictures, nell'alt: title, first e last name-->
+//   <img src="..." class="card-img-top" alt="...">
+//   <div class="card-body">
+// 		<!-- nel card title mettere title, first e last name -->
+//     <h5 class="card-title">Card title</h5>
+// 		<!-- nel tag p mettere indirizzo formattato bene coi vari dati -->
+//     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+//     <!-- nel tag a come href mettere il link ad una delle pictures -->
+// 		<a href="#" class="btn btn-primary">Visita</a>
+//   </div>
+// </div>
+// `
+
+// let users = [];
+
+// function addUsers(){
+// 	users.push(emailObj);
+// 	console.log(users);
+// }
+
+
+
+
+// person.showAdrees();
+// person.showNameSurname();
+// showEmail();
+// showEmailObj();
+// addUsers();
