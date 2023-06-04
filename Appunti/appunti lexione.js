@@ -539,36 +539,3 @@
 // for(let key in mySong){
 //     console.log(mySong[key]);
 // }
-
-
-
-
-
-
-
-
-
-// APPUNTI DEL 29 MAGGIO 2023!!!!!!!!!!!!!!!!
-// console.log("DOM");
-
-
-// serve per accedere a tutte le info della finestra del browser
-// console.log(window);
-
-
-// getElementById(): identifica un solo elemento della pagina attraverso l'attributo id: (univoco, cioe deve essere unico);
-
-// const title = document.getElementById("title")
-
-
-// getElementByTagName(): identifica un set degli elementi attraverso l'indicazione dello specifico tag;
-
-// const paragrafi = document.getElementsByTagName("p");
-// console.log(paragrafi);
-
-
-// getElementsByClassName(): 
-
-
-
-
