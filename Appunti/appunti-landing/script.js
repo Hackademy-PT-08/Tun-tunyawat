@@ -1,5 +1,5 @@
 let menu = document.getElementById("menu");
-
+const loading = document.querySelector("#loading")
 const menuItem = [
     {
         text: "Home",
@@ -83,8 +83,16 @@ function createMenuELement(target) {
 }
 
 
+function createArticleCard (){
+
+}
+
 
 
 // EXECUTE  ---> una parte dove andremo ad'invocare tutti i menu (NON è OBBLIGATORIO, è UN METODO PER ESSERE IN ORDINATI )
 
+setTimeout(() =>{
+    loading.classList.add("d-none");
+}, 1000)
 createMenuELement(menu, menuItem);
+createArticleCard()

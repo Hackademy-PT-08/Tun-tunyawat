@@ -1,0 +1,20 @@
+.loading{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: #fff;
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.parallax {
+    background-image: url(https://i.etsystatic.com/23334810/r/il/86166c/2368069679/il_570xN.2368069679_mjjv.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 800px;
+}
