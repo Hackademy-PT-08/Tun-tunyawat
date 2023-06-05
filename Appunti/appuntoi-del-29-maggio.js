@@ -94,13 +94,77 @@
 
 
 // creare un nuovoelemento nel DOM
-const list = document.querySelector("#list");
+// appendChild();
+// const list = document.querySelector("#list");
 
-const element = document.createElement("li");
-const element2 = document.createElement("li")
-element2.classList.add("list-group-item");
-element.classList.add("list-group-item");
-element.innerHTML = "Ciao sono un nuovo elemento della lista";
-element2.innerHTML = "Ciao sono un nuovo arrivato, sono il fratello minore "
-list.appendChild(element);
-list.appendChild(element2);
+// const element = document.createElement("li");
+// const element2 = document.createElement("li")
+// element2.classList.add("list-group-item");
+// element.classList.add("list-group-item");
+// element.innerHTML = "Ciao sono un nuovo elemento della lista";
+// element2.innerHTML = "Ciao sono un nuovo arrivato, sono il fratello minore "
+// list.appendChild(element);
+// list.appendChild(element2);
+
+
+
+// // crea un nuovo elemento nel dom con insertBefore();
+
+// const list = document.getElementById("myList");
+
+// const element = document.createElement("li");
+// element.innerHTML = "water";
+
+// list.insertBefore(element, list.children[1]);
+
+
+// // eliminare un elemento dal DOM
+// list.removeChild(list.children[0])
+
+
+
+const cardRow = document.getElementById("card_row");
+
+
+person.forEach(person => {
+    const card_col = document.createElement("div");
+    card_col.classList.add("col12", "col-lg-4");
+    
+    let cardTemplate = `
+    <div class="card" style="width: 18rem;">
+        <div class="card-body">
+            <h5 class="card-title">${person.name.title} ${person.name.first} ${person.name.last}</h5>
+            <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
+            <p class="card-text">
+            ${person.location.city} ${person.location.state}
+            </p>
+            <a href="#" class="card-link">Card link</a>
+            <a href="#" class="card-link">Another link</a>
+    </div>
+    </div>
+`;
+
+card_col.innerHTML = cardTemplate;
+cardRow.appendChild(card_col);
+
+
+
+
+    console.log(person);
+})
+
+
+// EVENTI
+const buttonClick = () => {
+    alert(`il bottone è stato cliccato!`);
+}
+
+
+const img = document.getElementById("immagine");
+img.addEventListener("click", () =>{
+    alert("Immagine cliccata!")
+})
+
+function changeInputValue(el) {
+    console.log(el.value);
+}
