@@ -1,5 +1,7 @@
 let menu = document.getElementById("menu");
-const loading = document.querySelector("#loading")
+const loading = document.querySelector("#loading");
+const articleRow = document.querySelector("#article-row");
+const contact = document.querySelector("#contactForm");
 const menuItem = [
     {
         text: "Home",
@@ -65,7 +67,7 @@ function createMenuELement(target) {
             dropDownDiv.classList.add("dropdown-menu");
 
             elements.submenu.forEach(el => {
-                console.log(el);
+                // console.log(el);
 
                 let anchor = document.createElement("a");
                 anchor.classList.add("dropdown-item");
@@ -83,9 +85,54 @@ function createMenuELement(target) {
 }
 
 
-function createArticleCard (){
+function createArticleCard (target, article){
+    article.forEach(articles => {
+        let cardCol = document.createElement("div");
+        cardCol.classList.add("col12", "col-md-6", "col-lg-4");
+
+        let carTemplate = `
+        <div class="card mb-3">
+            <h3 class="card-header">${articles.title}</h3>
+                <div class="card-body">
+                    <h5 class="card-title" style="">${articles.ShortText}</h5>
+                    <h6 class="card-subtitle text-muted" style="font-size: 1rem">${articles.fullText}</b></h6>
+                </div>
+                <div class="card_img" style="background-image: url('${articles.img}')"></div>
+            <!--<img src="${articles.img}" alt="${articles.title}">-->
+            <div class="card-body">
+                <span class="badge bg-primary">T-POP</span>
+                <span class="badge bg-secondary">THE7</span>
+                <span class="badge bg-success">SEVEN STARS</span>
+                <span class="badge bg-danger">MUSIC</span>
+                <span class="badge bg-warning">KOREAN</span>
+                <span class="badge bg-info">THAI</span>
+            </div>
+      </div>
+        `;
+        cardCol.innerHTML = carTemplate;
+        target.appendChild(cardCol);
+
+    })
+}
+
+function submit (event){
+    event.preventDefault();
+
+    let data = {};
+
+    const email = document.getElementById("exampleFormControlInput1");
+    const msgInput = document.getElementById("exampleFormControlTextarea1")
+    
+    data.email = email.value;
+    data["message"] = msgInput.value;
+
+    email.value = "";
+    msgInput.value = "";
+
+    console.log(data);
 
 }
+
 
 
 
@@ -95,4 +142,5 @@ setTimeout(() =>{
     loading.classList.add("d-none");
 }, 1000)
 createMenuELement(menu, menuItem);
-createArticleCard()
+createArticleCard(articleRow, article);
+contact.addEventListener("submit", submit);

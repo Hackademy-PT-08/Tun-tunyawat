@@ -18,3 +18,12 @@
     background-size: cover;
     height: 800px;
 }
+
+.card_img {
+    height: 220px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-size: cover;
+    border-radius: 0;
+}
