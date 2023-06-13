@@ -107,7 +107,41 @@ function createArticleCard (target, article){
                 <span class="badge bg-warning">KOREAN</span>
                 <span class="badge bg-info">THAI</span>
             </div>
-      </div>
+        </div>
+        <div class="card mb-3">
+            <h3 class="card-header">${articles.title}</h3>
+                <div class="card-body">
+                    <h5 class="card-title" style="">${articles.ShortText}</h5>
+                    <h6 class="card-subtitle text-muted" style="font-size: 1rem">${articles.fullText}</b></h6>
+                </div>
+                <div class="card_img" style="background-image: url('${articles.img}')"></div>
+            <!--<img src="${articles.img}" alt="${articles.title}">-->
+            <div class="card-body">
+                <span class="badge bg-primary">T-POP</span>
+                <span class="badge bg-secondary">THE7</span>
+                <span class="badge bg-success">SEVEN STARS</span>
+                <span class="badge bg-danger">MUSIC</span>
+                <span class="badge bg-warning">KOREAN</span>
+                <span class="badge bg-info">THAI</span>
+            </div>
+        </div>
+        <div class="card mb-3">
+            <h3 class="card-header">${articles.title}</h3>
+                <div class="card-body">
+                    <h5 class="card-title" style="">${articles.ShortText}</h5>
+                    <h6 class="card-subtitle text-muted" style="font-size: 1rem">${articles.fullText}</b></h6>
+                </div>
+                <div class="card_img" style="background-image: url('${articles.img}')"></div>
+            <!--<img src="${articles.img}" alt="${articles.title}">-->
+            <div class="card-body">
+                <span class="badge bg-primary">T-POP</span>
+                <span class="badge bg-secondary">THE7</span>
+                <span class="badge bg-success">SEVEN STARS</span>
+                <span class="badge bg-danger">MUSIC</span>
+                <span class="badge bg-warning">KOREAN</span>
+                <span class="badge bg-info">THAI</span>
+            </div>
+        </div>
         `;
         cardCol.innerHTML = carTemplate;
         target.appendChild(cardCol);
