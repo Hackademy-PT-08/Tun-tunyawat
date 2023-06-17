@@ -73,8 +73,8 @@ async function getAllProducts(){
     loader.classList.add('d-none');
     productsRow.innerHTML = "";
     createCardProducts(products);
-    console.log(products)
-    totalElements.innerHTML = `${products.length} prodotti trovati`;
+    console.log(products);
+    totalElements.innerHTML =`${products.length} prodotti trovati`;
 
 }
 

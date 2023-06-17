@@ -1,0 +1,133 @@
+body{
+    background-color: #fff;
+}
+
+
+#hero-section, h2, p{
+    color: black;
+}
+#hero-section, p {
+    font-size: 1.1rem;
+}
+
+.line {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 48%;
+    height: 5px;
+    width: 50px;
+    background-color: black;
+
+}
+
+#presto {
+    color: black;
+}
+
+
+.carousel-item  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cars-wrapper{
+    display: flex;
+}
+
+.card-body{
+    padding-right: 50px;
+    background-color: #fff;
+}
+
+.cardProd {
+    height: 220px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-size: contain;
+    border-radius: 0;
+}
+.cardProd img {
+    width: 100%;
+}
+
+.card {
+    border-radius: 10px;
+}
+
+#card-container {
+    margin-left: 110px;
+}
+
+
+.brand img{
+    width: 4%;
+    background-size: contain;
+    transition: 1s color;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.brand img:hover{
+    /* color: rgba(128, 128, 128, 0.317); */
+}
+
+.brand{
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+
+#form-email, #form-textarea {
+    width: 50%;
+}
+
+#form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+
+#submit-btn {
+    margin-top: 10px;
+    border: none;
+    width: 100px;
+    height: 40px;
+    color: #fff;
+    background-color: rgb(104, 104, 226);
+    border-radius: 5px;
+}
+
+#hero2 {
+    background-image: url(https://media.istockphoto.com/id/500954400/th/%E0%B8%A3%E0%B8%B9%E0%B8%9B%E0%B8%96%E0%B9%88%E0%B8%B2%E0%B8%A2/%E0%B8%84%E0%B8%AD%E0%B8%A1%E0%B8%9E%E0%B8%B4%E0%B8%A7%E0%B9%80%E0%B8%95%E0%B8%AD%E0%B8%A3%E0%B9%8C%E0%B9%81%E0%B8%81%E0%B9%89%E0%B8%A7%E0%B8%81%E0%B8%B2%E0%B9%81%E0%B8%9F%E0%B9%82%E0%B8%97%E0%B8%A3%E0%B8%A8%E0%B8%B1%E0%B8%9E%E0%B8%97%E0%B9%8C%E0%B8%9A%E0%B8%99%E0%B9%82%E0%B8%95%E0%B9%8A%E0%B8%B0%E0%B9%84%E0%B8%A1%E0%B9%89%E0%B8%AA%E0%B8%B5%E0%B8%94%E0%B9%8D%E0%B8%B2%E0%B8%94%E0%B8%A7%E0%B8%87%E0%B8%AD%E0%B8%B2%E0%B8%97%E0%B8%B4%E0%B8%95%E0%B8%A2%E0%B9%8C%E0%B8%82%E0%B8%B6%E0%B9%89%E0%B8%99.jpg?s=612x612&w=0&k=20&c=GvTOAHYm7KqVPS4VmF2ix_QoO2_FJOF_8LUb1JplD_Y=);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+#hero2 .content-form {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+}
+
+
+#hero2 .blur {
+    background-color: rgba(128, 128, 128, 0.441);
+    backdrop-filter: blur(5px);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}

@@ -1,0 +1,64 @@
+{
+    "offersProducts": [
+            {   
+                "category": "Phone",  
+                "brand": "Apple",
+                "name": "Iphone 13",
+                "original": 799,
+                "price": 650,
+                "stock": 20,
+                "detail": "",
+                "image": "https://it.static.webuy.com/product_images/Telefonia/Cellulari%20-%20iPhone/SAPPI13256GBLIBB_l.jpg"
+            },
+            {   
+                "category": "Phone",
+                "brand": "Apple",
+                "name": "Iphone 12",
+                "original": 700,
+                "price": 630,
+                "stock": 50,
+                "image": "https://it.static.webuy.com/product_images/Telefonia/Cellulari%20-%20iPhone/SAPPI12128GNLIBC_l.jpg",
+                "detail": ""
+            },
+            {   
+                "category": "Watch",
+                "brand": "Apple",
+                "name": "Apple Watch SE (GPS)",
+                "original": 299,
+                "price": 150,
+                "stock": 90,
+                "detail": "",
+                "image": "https://media.extra.com/s/aurora/100315733_800/Apple-Watch-SE-2nd-Gen-GPS-40mm-Midnight%2C-Case-with-Midnight-Sport-Band?locale=en-GB,en-*,*"
+            },
+            {   
+                "category": "Laptop",
+                "brand": "Apple",
+                "name": "Apple MacBook Air M1",
+                "original": 950,
+                "price": 850,
+                "stock": "50",
+                "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/macbook-air-space-gray-select-201810?wid=904&hei=840&fmt=jpeg&qlt=90&.v=1664472289661",
+                "detail": ""
+            },
+            {   
+                "category": "Phone",
+                "brand": "Samsung",
+                "name": "Samsung Galaxy S20",
+                "original": 499,
+                "price": 400,
+                "stock": 50,
+                "image": "https://m.media-amazon.com/images/I/71Nq1XZzu2L._AC_UF1000,1000_QL80_.jpg",
+                "detail": ""
+            },
+            {   
+                "category": "Phone",
+                "brand": "Samsung",
+                "name": "Samsung Galaxy S23 5G",
+                "original": 1099,
+                "price": 700,
+                "stock": 125,
+                "image": "https://www.mistershopking.com/16104-large_default/samsung-s23-128gb-nero-5g-dual-sim-8gb-europa.jpg",
+                "detail": ""
+            }
+    ]
+}
