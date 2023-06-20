@@ -21,16 +21,6 @@
                 "detail": ""
             },
             {   
-                "category": "Watch",
-                "brand": "Apple",
-                "name": "Apple Watch SE (GPS)",
-                "original": 299,
-                "price": 150,
-                "stock": 90,
-                "detail": "",
-                "image": "https://media.extra.com/s/aurora/100315733_800/Apple-Watch-SE-2nd-Gen-GPS-40mm-Midnight%2C-Case-with-Midnight-Sport-Band?locale=en-GB,en-*,*"
-            },
-            {   
                 "category": "Laptop",
                 "brand": "Apple",
                 "name": "Apple MacBook Air M1",

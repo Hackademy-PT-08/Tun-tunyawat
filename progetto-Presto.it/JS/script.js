@@ -13,3 +13,4 @@ menuNavCreate(menu, menuItem);
 getAllOffers();
 getAllProducts();
 getAllCategories();
+getAllBrand();

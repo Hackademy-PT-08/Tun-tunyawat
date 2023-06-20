@@ -1,12 +1,12 @@
 const appleWatch = [
     {   
-        category: 'Watch',
-        brand: 'Apple',
-        name: 'Apple Watch SE (2ª gen.) (GPS + Cellular)',
-        price: '299',
-        stock: '60',
-        detail: '',
-        image: 'https://m.media-amazon.com/images/I/71ABtqvzVKL._AC_SX679_.jpg'
+        "category": "Watch",
+        "brand": "Apple",
+        "name": "Apple Watch SE (2ª gen.) (GPS + Cellular)",
+        "price": 299,
+        "stock": 60,
+        "detail": "",
+        "image": "https://m.media-amazon.com/images/I/71ABtqvzVKL._AC_SX679_.jpg"
     },
     {   
         category: 'Watch',

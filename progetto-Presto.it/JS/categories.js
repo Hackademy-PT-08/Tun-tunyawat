@@ -83,6 +83,8 @@ function cardCategoryCard(cardProducts){
               <h5 class="card-title">${cardProd.name}</h5>
               <p class="card-text">Sale ${cardProd.price}$ <del style="font-size: 0.9rem;">${cardProd.original}</del></p>
               <a href="#" class="btn btn-primary">detail</a>
+              <a href="#" class="btn btn-warning">Add to Cart</a>
+              
         </div>
         `;
 
@@ -105,13 +107,13 @@ async function getAllOffers(){
 // Creazione del card all products
 
 function phoneProductsCreateCard(allProducts){
-    allProducts.forEach(cardProdPhone => {
+    allProducts.categories.forEach(cardProdPhone => {
 
         let div = document.createElement('div');
         div.classList.add('col-12', 'col-lg-4', 'mb-3');
 
         let cardTemplate = `
-        <div class="card" style="width: 18.5rem;">
+        <div id="cardAllProd" class="card" style="width: 18.5rem;">
             <div class="cardProd">
             <img src="${cardProdPhone.image}" class="card-img-top" alt="${cardProdPhone.name}">
             </div>
@@ -119,26 +121,8 @@ function phoneProductsCreateCard(allProducts){
               <h5 class="card-title">${cardProdPhone.name}</h5>
               <p class="card-text">${cardProdPhone.price}$</p>
               <a href="#" class="btn btn-primary">detail</a>
-        </div>
-        `;
-
-        div.innerHTML = cardTemplate;
-        cardAllProducts.appendChild(div);
-    })
-
-    allProducts.categories.productsLaptop.forEach(cardProdLaptop => {
-        let div = document.createElement('div');
-        div.classList.add('col-12', 'col-lg-4', 'mb-3');
-
-        let cardTemplate = `
-        <div class="card" style="width: 18.5rem;">
-            <div class="cardProd">
-            <img src="${cardProdLaptop.image}" class="card-img-top" alt="${cardProdLaptop.name}">
+              <a href="#" class="btn btn-warning">Add to Cart</a>
             </div>
-            <div class="card-body">
-              <h5 class="card-title">${cardProdLaptop.name}</h5>
-              <p class="card-text">${cardProdLaptop.price}$</p>
-              <a href="#" class="btn btn-primary">detail</a>
         </div>
         `;
 
@@ -148,7 +132,7 @@ function phoneProductsCreateCard(allProducts){
 }
 async function getAllProducts(){
 
-    const response = await fetch("./data/categories.json");
+    const response = await fetch("./data/allProducts.json");
     const allProducts = await response.json();
 
     cardAllProducts.innerHTML = "";
@@ -162,21 +146,41 @@ async function getAllProducts(){
 
 async function getAllCategories(){
 
-    const response = await fetch("./data/categories.json");
+    const response = await fetch('./data/categories.json');
     const categories = await response.json();
 
 
     categorySelectCreate(categorySelect,categories);
 }
 
+async function getAllBrand(){
+
+    const response = await fetch('./data/brand.json');
+    const brand = await response.json();
+
+    brandSelectCreate(brandSelect, brand);
+}
+
 function categorySelectCreate(target, category){
-    category.name.forEach(cate => {
+    category.categories.forEach(cate => {
         let option = document.createElement('option');
-        option.innerHTML = cate.name;
-        option.value = cate.name;
+        option.innerHTML = cate;
+        option.value = cate;
         target.appendChild(option);
     })
 }
+
+function brandSelectCreate(target, brand){
+
+    brand.brand.forEach(brandy => {
+        let option = document.createElement("option");
+        option.innerHTML = brandy;
+        option.value = brandy;
+        target.appendChild(option);
+    })
+}
+
+
 
 
 

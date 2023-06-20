@@ -11,6 +11,27 @@ body{
 }
 
 
+#heart{
+    fill: white;
+    cursor: pointer;
+    transition: .2s fill;
+}
+
+#heart:hover {
+    fill: red;
+}
+
+#cart{
+    fill: white;
+    cursor: pointer;
+    transition: .2s fill;
+}
+
+#cart:hover {
+    fill: black;
+}
+
+
 
 /* OFFERS SHOP */
 
@@ -53,6 +74,13 @@ body{
     background-color: #fff;
 }
 
+.card-body h5{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
 .cardProd {
     height: 220px;
     background-position: center center;
@@ -67,6 +95,10 @@ body{
 
 .card {
     border-radius: 10px;
+}
+
+#cardAllProd{
+    margin-left: 70px;
 }
 
 #card-container {
