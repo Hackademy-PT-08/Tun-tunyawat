@@ -23,7 +23,7 @@ const menuItem = [
     {
         text: 'Brand',
         url: '#',
-        submenu: [...brand]
+        submenu: [...brand_name]
     },
 ]
 
@@ -35,7 +35,7 @@ function menuNavCreate (target, menuItem){
         let anchor = document.createElement('a');
 
         li.classList.add('nav-item');
-        anchor.classList.add('nav-link');
+        anchor.classList.add('nav-link', 'text-nav');
 
         anchor.setAttribute('href', menu.url);
         anchor.innerHTML = menu.text;
@@ -54,12 +54,11 @@ function menuNavCreate (target, menuItem){
             divDropdown.classList.add('dropdown-menu');
 
             menu.submenu.forEach(dropdown => {
-                 
-                
                 let anchor = document.createElement('a');
 
                 anchor.classList.add('dropdown-item');
-                anchor.innerHTML = dropdown;
+                anchor.setAttribute('href', dropdown.url);
+                anchor.innerHTML = dropdown.text;
 
                 divDropdown.appendChild(anchor);
                 li.appendChild(divDropdown);
@@ -75,19 +74,19 @@ function cardCategoryCard(cardProducts){
         let div = document.createElement('div');
         div.classList.add('col-12', 'col-lg-4', 'mb-3');
 
-        let cardTemplate = `
+        let cardTemplateOffers = `
         <div class="card" style="width: 18.5rem;">
             <div class="cardProd">
             <img src="${cardProd.image}" class="card-img-top" alt="${cardProd.name}">
             </div>
             <div class="card-body">
               <h5 class="card-title">${cardProd.name}</h5>
-              <p class="card-text">Sale <del>${cardProd.original}</del> ${cardProd.price} $</p>
+              <p class="card-text">Sale ${cardProd.price}$ <del style="font-size: 0.9rem;">${cardProd.original}</del></p>
               <a href="#" class="btn btn-primary">detail</a>
         </div>
         `;
 
-        div.innerHTML = cardTemplate;
+        div.innerHTML = cardTemplateOffers;
         card.appendChild(div);
     })
 }
@@ -100,25 +99,86 @@ async function getAllOffers(){
 
     card.innerHTML = "";
     cardCategoryCard(productsOffers);
-    console.log(productsOffers);
 }
 
-// Creazione del Brand Row
-// function brandRowCreate (target, brand){
-//     brand.forEach(b => {
 
-//         let div = document.createElement('div');
-//         div.classList.add('col-12');
+// Creazione del card all products
 
-//         bradRowTemplate = `
-//         <div class="brand">
-//             <img src="${b.image}" alt="${b.name}">
-//         </div>
-//         `;
-//         div.innerHTML = bradRowTemplate;
-//         target.appendChild(div);
-//     })
-// }
+function phoneProductsCreateCard(allProducts){
+    allProducts.forEach(cardProdPhone => {
+
+        let div = document.createElement('div');
+        div.classList.add('col-12', 'col-lg-4', 'mb-3');
+
+        let cardTemplate = `
+        <div class="card" style="width: 18.5rem;">
+            <div class="cardProd">
+            <img src="${cardProdPhone.image}" class="card-img-top" alt="${cardProdPhone.name}">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">${cardProdPhone.name}</h5>
+              <p class="card-text">${cardProdPhone.price}$</p>
+              <a href="#" class="btn btn-primary">detail</a>
+        </div>
+        `;
+
+        div.innerHTML = cardTemplate;
+        cardAllProducts.appendChild(div);
+    })
+
+    allProducts.categories.productsLaptop.forEach(cardProdLaptop => {
+        let div = document.createElement('div');
+        div.classList.add('col-12', 'col-lg-4', 'mb-3');
+
+        let cardTemplate = `
+        <div class="card" style="width: 18.5rem;">
+            <div class="cardProd">
+            <img src="${cardProdLaptop.image}" class="card-img-top" alt="${cardProdLaptop.name}">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">${cardProdLaptop.name}</h5>
+              <p class="card-text">${cardProdLaptop.price}$</p>
+              <a href="#" class="btn btn-primary">detail</a>
+        </div>
+        `;
+
+        div.innerHTML = cardTemplate;
+        cardAllProducts.appendChild(div);
+    })
+}
+async function getAllProducts(){
+
+    const response = await fetch("./data/categories.json");
+    const allProducts = await response.json();
+
+    cardAllProducts.innerHTML = "";
+    phoneProductsCreateCard(allProducts);
+    console.log(allProducts);
+
+}
+
+
+// Creazione delle barre di Select
+
+async function getAllCategories(){
+
+    const response = await fetch("./data/categories.json");
+    const categories = await response.json();
+
+
+    categorySelectCreate(categorySelect,categories);
+}
+
+function categorySelectCreate(target, category){
+    category.name.forEach(cate => {
+        let option = document.createElement('option');
+        option.innerHTML = cate.name;
+        option.value = cate.name;
+        target.appendChild(option);
+    })
+}
+
+
 
 
 

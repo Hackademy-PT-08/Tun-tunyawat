@@ -1,0 +1,26 @@
+{
+    "Phone": [
+        
+    ],
+
+    "Laptop": [
+        {   
+        "category": "Laptop",
+        "brand": "Apple",
+        "name": "Apple MacBook Air con chip Apple M1",
+        "price": 950,
+        "stock": 50,
+        "image": "https://m.media-amazon.com/images/I/41hUC9GqDjL._AC_SL1000_.jpg",
+        "detail": ""
+    },
+    {   
+        "category": "Laptop",
+        "brand": "Apple",
+        "name": "Apple PC Portatile MacBook Air 2022 con chip M2",
+        "price": 980,
+        "stock": 60,
+        "image": "https://m.media-amazon.com/images/I/71EbycNfD4L._AC_SX679_.jpg",
+        "detail": ""
+    }
+    ]
+}
