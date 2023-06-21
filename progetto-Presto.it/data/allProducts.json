@@ -7,7 +7,7 @@
             "name": "Iphone 13",
             "price": 799,
             "stock": 20,
-            "detail": "",
+            "detail":"CPU: A15-BIONIC,<br> RAM: 4GB,<br> DISPLAY: 6.1', <br> BATTERY: 3240 MAH <br> SELFIE-CAMERA: 12 mp, <br> BACK-CAMERA: 12 mp",
             "image": "https://m.media-amazon.com/images/I/71dpTXFz+dL._AC_SX522_.jpg"
         },
         {   
@@ -18,7 +18,7 @@
             "price": 950,
             "stock": 25,
             "image": "https://m.media-amazon.com/images/I/61RAsVPOjxL._AC_SL1500_.jpg",
-            "detail": ""
+            "detail": "CPU: A15-BIONIC,<br> RAM: 6GB,<br> DISPLAY: 6.1',<br> BATTERY: 3125 MAH <br> SELFIE-CAMERA: 12 mp,<br> BACK-CAMERA: 12 mp"
         },
         {   
             "id": 3,
@@ -28,7 +28,7 @@
             "price": 300,
             "stock": 100,
             "image": "https://m.media-amazon.com/images/I/71i2XhHU3pL._AC_SX522_.jpg",
-            "detail": ""
+            "detail": "CPU: A13-BIONIC,<br> RAM: 4GB,<br> DISPLAY: 6.1', <br> BATTERY: 3046 MAH <br> SELFIE-CAMERA: 12 mp, <br> BACK-CAMERA: 12 mp"
         },
         {   
             "id": 4,
@@ -38,7 +38,7 @@
             "price": 1100,
             "stock": "OUT",
             "image": "https://m.media-amazon.com/images/I/61b2CeHwmvL._AC_SX522_.jpg",
-            "detail": ""
+            "detail": "CPU: A15-BIONIC,<br> RAM: 6GB,<br> DISPLAY: 6.7', <br> BATTERY: 4373 MAH <br> SELFIE-CAMERA: 12 mp, <br> BACK-CAMERA: 12 mp"
         },
         {   
             "id": 5,
@@ -48,7 +48,7 @@
             "price": 550,
             "stock": 40,
             "image": "https://m.media-amazon.com/images/I/71D1URasMyL._AC_SY679_.jpg",
-            "detail": ""
+            "detail": "CPU: A13-BIONIC,<br> RAM: 4GB,<br> DISPLAY: 5.8', <br> BATTERY: 3190 MAH <br> SELFIE-CAMERA: 12 mp, <br> BACK-CAMERA: 12 mp"
         },
         {   
             "id": 6,
@@ -58,7 +58,7 @@
             "price": 950,
             "stock": 120,
             "image": "https://m.media-amazon.com/images/I/61cwywLZR-L._AC_SX679_.jpg",
-            "detail": ""
+            "detail": "CPU: A15-BIONIC,<br> RAM: 4GB,<br> DISPLAY: 6.1', <br> BATTERY: 3279 MAH <br> SELFIE-CAMERA: 12 mp, <br> BACK-CAMERA: 12 mp"
         },
         {   
             "id": 7,
@@ -68,7 +68,7 @@
             "price": 1200,
             "stock": 150,
             "image": "https://m.media-amazon.com/images/I/61XO4bORHUL._AC_SX679_.jpg",
-            "detail": ""
+            "detail": "CPU: A16-BIONIC,<br> RAM: 6GB,<br> DISPLAY: 6.1', <br> BATTERY: 3200 MAH <br> SELFIE-CAMERA: 12 mp, <br> BACK-CAMERA: 48 mp"
         },
         { 
             "id": 8,  
@@ -78,7 +78,7 @@
             "price": 1300,
             "stock": 120,
             "image": "https://m.media-amazon.com/images/I/71yzJoE7WlL._AC_SX522_.jpg",
-            "detail": ""
+            "detail": "CPU: A16-BIONIC,<br> RAM: 6GB,<br> DISPLAY: 6.7', <br> BATTERY: 4350 MAH <br> SELFIE-CAMERA: 12 mp, <br> BACK-CAMERA: 48 mp"
         },
         {   
             "id": 9,
@@ -88,7 +88,7 @@
             "price": 700,
             "stock": 50,
             "image": "https://m.media-amazon.com/images/I/71MtcgbTdXL._AC_SX522_.jpg",
-            "detail": ""
+            "detail": "CPU: A14-BIONIC,<br> RAM: 4GB,<br> DISPLAY: 5.4' FHD+, <br> BATTERY: 2227 MAH <br> SELFIE-CAMERA: 12 mp, <br> BACK-CAMERA: 12 mp"
         },
         {   
             "id": 10,
@@ -98,7 +98,7 @@
             "price": 850,
             "stock": 45,
             "image": "https://m.media-amazon.com/images/I/71YlH-4MUQL._AC_SX679_.jpg",
-            "detail": ""
+            "detail": "CPU: A14-BIONIC,<br> RAM: 6GB,<br> DISPLAY: 6.7' FHD+, <br> BATTERY: 2227 MAH <br> SELFIE-CAMERA: 12 mp, <br> BACK-CAMERA: 12 mp"
         },
         {   
             "id": 11,
@@ -108,7 +108,7 @@
             "price": "340",
             "stock": "40",
             "image": "https://m.media-amazon.com/images/I/71u0Mz7jU6L._AC_SX522_.jpg",
-            "detail": ""
+            "detail": "CPU: Exynos 990,<br> RAM: 8GB,<br> DISPLAY: 6.7' QHD+, <br> BATTERY: 3046 MAH <br> SELFIE-CAMERA: 10 mp, <br> BACK-CAMERA: 12 mp"
         },
         { 
             "id": 12,  
@@ -118,7 +118,7 @@
             "price": 499,
             "stock": 50,
             "image": "https://m.media-amazon.com/images/I/71Nq1XZzu2L._AC_SL1500_.jpg",
-            "detail": ""
+            "detail": "CPU: Exynos 990,<br> RAM: 8GB,<br> DISPLAY: 6.2' QHD+, <br> BATTERY: 4000 MAH <br> SELFIE-CAMERA: 10 mp, <br> BACK-CAMERA: 12 mp"
         },
         {   
             "id": 13,
@@ -128,17 +128,17 @@
             "price": 419,
             "stock": 50,
             "image": "https://m.media-amazon.com/images/I/71azmHvpegL._AC_SL1500_.jpg",
-            "detail": ""
+            "detail": "CPU: Exynos 990,<br> RAM: 8GB,<br> DISPLAY: 6.5 FHD+', <br> BATTERY: 4500 MAH <br> SELFIE-CAMERA: 32 mp, <br> BACK-CAMERA: 12 mp"
         },
         {   
             "id": 14,
             "category": "Phone",
             "brand": "Samsung",
-            "name": "SAMSUNG Smartphone Galaxy S21 5G",
+            "name": "SAMSUNG Galaxy S21 5G",
             "price": 599,
             "stock": 80,
             "image": "https://m.media-amazon.com/images/I/81IWsqrVMTL._AC_SX679_.jpg",
-            "detail": ""
+            "detail": "CPU: Exynos 2100,<br> RAM: 8GB,<br> DISPLAY: 6.2 FHD+', <br> BATTERY: 4000 MAH <br> SELFIE-CAMERA: 10 mp, <br> BACK-CAMERA: 12 mp"
         },
         {   
             "id": 15,
@@ -148,7 +148,7 @@
             "price": 480,
             "stock": 78,
             "image": "https://m.media-amazon.com/images/I/81i+q60ayOL._AC_SL1500_.jpg",
-            "detail": ""
+            "detail": "CPU: Qualcomm SM8350 Snapdragon 888 5G,<br> RAM: 6GB,<br> DISPLAY: 6.4 FHD+', <br> BATTERY: 4500 MAH <br> SELFIE-CAMERA: 32 mp, <br> BACK-CAMERA: 12 mp"
         },
         {   
             "id": 16,
@@ -158,7 +158,7 @@
             "price": 950,
             "stock": 50,
             "image": "https://m.media-amazon.com/images/I/41hUC9GqDjL._AC_SL1000_.jpg",
-            "detail": ""
+            "detail": "CPU: M1,<br> RAM: 8GB,<br> DISPLAY: 13.3' LED, <br> FaceTime: 1080p<br>"
         },
         {    "id": 17,
             "category": "Laptop",
@@ -167,55 +167,61 @@
             "price": 980,
             "stock": 60,
             "image": "https://m.media-amazon.com/images/I/71EbycNfD4L._AC_SX679_.jpg",
-            "detail": ""
+            "detail": "CPU: M2,<br> RAM: 8GB,<br> DISPLAY: 13.6' LED, <br> FaceTime: 1080p<br>"
                     
         },
         {   
+            "id": 18,
             "category": "Laptop",
             "brand": "Apple",
             "name": "Apple MacBook Pro Retina 15' Touch bar 2018",
             "price": 1099,
             "stock": 50,
             "image": "https://m.media-amazon.com/images/I/41rKoTAdxzL._AC_.jpg",
-            "detail": ""
+            "detail": "CPU: Intel Core i7,<br> RAM: 16GB,<br> DISPLAY: 15.4' LED, <br> FaceTime: 720p<br>"
         },
         {   
+            "id": 19,
             "category": "Laptop",
             "brand": "Apple",
             "name": "Apple 2020 MacBook Pro",
             "price": 1800,
             "stock": 45,
             "image": "https://m.media-amazon.com/images/I/61XiLRM32NL._AC_SL1500_.jpg",
-            "detail": ""
+            "detail": "CPU: Intel Core i5,<br> RAM: 8GB,<br> DISPLAY: 13.3' LED, <br> FaceTime: 720p<br>"
         },
         {   
+            "id": 20,
             "category": "Laptop",
             "brand": "Apple",
             "name": "Apple MacBook Pro 15.4' con Touch Bar 2017",
             "price": 850,
             "stock": 30,
             "image": "https://m.media-amazon.com/images/I/516qDz7-QcL._AC_.jpg",
-            "detail": ""
+            "detail": "CPU: M1 PRO,<br> RAM: 16GB,<br> DISPLAY: 14.2' Liquid Retina XDR, <br> FaceTime: 1080p<br>"
         },
         {   
+            "id": 21,
             "category": "Laptop",
             "brand": "Apple",
             "name": "Apple 2019 MacBook Pro",
             "price": 2100,
             "stock": 70,
             "image": "https://m.media-amazon.com/images/I/61xERL34brL._AC_SL1500_.jpg",
-            "detail": ""
+            "detail": "CPU: Intel Core i7,<br> RAM: 16GB,<br> DISPLAY: 15.4' LED, <br> FaceTime: 720p<br>"
         },
         {   
+            "id": 22,
             "category": "Laptop",
             "brand": "Apple",
             "name": "Apple 2021 MacBook Pro",
             "price": 2500,
             "stock": 100,
             "image": "https://m.media-amazon.com/images/I/61aUBxqc5PL._AC_SL1500_.jpg",
-            "detail": ""
+            "detail": "CPU: Intel Core i5,<br> RAM: 8GB,<br> DISPLAY: 13.3' LED, <br> FaceTime: 720p<br>"
         },
         {   
+            "id": 23,
             "category": "Laptop",
             "brand": "Apple",
             "name": "Apple PC Portatile MacBook Pro 2022 con chip M2",
@@ -225,6 +231,7 @@
             "detail": ""
         },
         {   
+            "id": 24,
             "category": "Laptop",
             "brand": "Apple",
             "name": "Apple 2023 MacBook Pro Portatile con Chip M2 Pro: CPU-10-CORE",
@@ -234,6 +241,7 @@
             "detail": ""
         },
         {   
+            "id": 25,  
             "category": "Laptop",
             "brand": "Apple",
             "name": "Apple 2023 MAcBook Pro Portatile con Chip M2 Pro: CPU-12-CORE",
@@ -243,6 +251,7 @@
             "detail": ""
         },
         {   
+            "id": 26,
             "category": "Laptop",
             "brand": "Apple",
             "name": "Apple 2020 iMac Display Retina 5K",
@@ -252,6 +261,7 @@
             "detail": ""
         },
         {   
+            "id": 27,
             "category": "Laptop",
             "brand": "Apple",
             "name": "Apple 2021 iMac con Chip M1",
@@ -261,6 +271,7 @@
             "detail": ""
         },
         {   
+            "id": 28,
             "category": "Laptop",
             "brand": "Apple",
             "name": "Apple iMac 2019 con Retina 4k Display",
@@ -269,7 +280,8 @@
             "image": "https://m.media-amazon.com/images/I/61NTwKbTTaL._AC_SL1000_.jpg",
             "detail": ""
         },
-        {
+        {   
+            "id": 29,
             "category": "Laptop",
             "brand": "Samsung",
             "name": "SAMSUNG Galaxy Book3 360",
@@ -279,6 +291,7 @@
             "detail": ""
         },
         {
+            "id": 30,
             "category": "Laptop",
             "brand": "Samsung",
             "name": "SAMSUNG Galaxy Book3 Pro",
@@ -287,7 +300,8 @@
             "image": "https://m.media-amazon.com/images/I/61Gd-Vi+V7L._AC_SY300_SX300_.jpg",
             "detail": ""
         },
-        {
+        {   
+            "id": 31,
             "category": "Laptop",
             "brand": "Samsung",
             "name": "SAMSUNG Galaxy Book3",
@@ -295,8 +309,9 @@
             "stock": 98,
             "image": "https://m.media-amazon.com/images/I/61Pdb2wbgbL._AC_SX522_.jpg",
             "detail": ""
-        },
-        {
+        },  
+        {   
+            "id": 32,
             "category": "Laptop",
             "brand": "Samsung",
             "name": "SAMSUNG Galaxy Book3 Ultra",
@@ -305,7 +320,8 @@
             "image": "https://m.media-amazon.com/images/I/61BY-V5sUHL.__AC_SX300_SY300_QL70_ML2_.jpg",
             "detail": ""
         },
-        {
+        {   
+            "id": 33,
             "category": "Laptop",
             "brand": "Samsung",
             "name": "Samsung Galaxy Book2",
@@ -314,7 +330,8 @@
             "image": "https://m.media-amazon.com/images/I/71BL8Cq050L._AC_SX679_.jpg",
             "detail": ""
         },
-        {
+        {   
+            "id": 34,
             "category": "Laptop",
             "brand": "Samsung",
             "name": "SAMSUNG Galaxy Book2 GO 5G",

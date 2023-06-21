@@ -7,7 +7,13 @@
                 "original": 799,
                 "price": 650,
                 "stock": 20,
-                "detail": "",
+                "detail": [
+                    "CPU: A15-BIONIC",
+                    "RAM: 4GB",
+                    "DISPLAY: 6.1'",
+                    "SELFIE-CAMERA: 12 mp",
+                    "BACK-CAMERA: 12 mp"
+                ],
                 "image": "https://it.static.webuy.com/product_images/Telefonia/Cellulari%20-%20iPhone/SAPPI13256GBLIBB_l.jpg"
             },
             {   
