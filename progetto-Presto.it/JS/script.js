@@ -5,7 +5,8 @@ const limitSelect = document.getElementById('limitSelect');
 const card = document.getElementById('card');
 const brandRow = document.getElementById('brandRow');
 const cardAllProducts = document.getElementById('card-all-products');
-const openModal = document.getElementById('openModal')
+const openModal = document.getElementById('openModal');
+const color_c = document.getElementById('color-c');
 
 
 // EXECUTE 

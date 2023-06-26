@@ -14,6 +14,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600&display=swap");
 :root,
 [data-bs-theme=light] {
+  /* Iphone 13 collor */
+  --bs-azzurro: #256281;
+  --bs-galassia: #f9f4f0;
+  --bs-mezzanotte: #192028;
+  --bs-rosa: #f9ded7;
+  --bs-rosso: #980112;
+  --bs-verde: #374836;
+
+
+
+
   --bs-blue: #007bff;
   --bs-indigo: #6610f2;
   --bs-purple: #6f42c1;

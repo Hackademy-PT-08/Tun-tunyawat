@@ -119,8 +119,7 @@ function phoneProductsCreateCard(allProducts){
               <h5 class="card-title">${cardProdPhone.name}</h5>
               <p class="card-text">${cardProdPhone.price}$</p>
               <p> Available in stock ${cardProdPhone.stock}</p>
-              <a id="openModal"href="#" class="btn btn-warning">Add to Cart</a>
-              <a id="openModal"href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#${cardProdPhone.id}">Detail</a>
+              <a id="openModal" href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#${cardProdPhone.id}" style="display: flex; justify-content: center;">Buy Now</a>
               
 
                 <div class="modal fade" id="${cardProdPhone.id}" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -131,6 +130,26 @@ function phoneProductsCreateCard(allProducts){
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
+                        <div class="detail">
+                            <img class="mb-3" src="${cardProdPhone.image}" alt="${cardProdPhone.name}">
+                            <p>
+                                Color:
+                            </p>
+                            <div id="color-choose" class="col12">
+                                <button type="button" class="btn"">${cardProdPhone.memory}</button>
+
+                                <button type="button" class="btn"  style="background-color: #f9f4f0;"></button>
+
+                                <button type="button" class="btn" style="background-color: #192028;"></button>
+
+                                <button type="button" class="btn btn-danger" style="background-color: #f9ded7;"></button>
+
+                                <button type="button" class="btn btn-warning" style="background-color: #980112;"></button>
+
+                                <button type="button" class="btn btn-info" style="background-color: #374836;"></button>
+                            </div>
+                        </div>
+                        <hr>
                         <p>${cardProdPhone.detail}</p>
                         <br>
                     </div>
@@ -196,20 +215,6 @@ function brandSelectCreate(target, brand){
         option.value = brandy;
         target.appendChild(option);
     })
-}
-
-// MODAL
-
-
-async function modal(){
-
-    const response = await fetch("./data/offersProducts.json");
-    const modal = await response.json();
-
-    openModalCreate(modal);
-}
-function openModalCreate(){
-    
 }
 
 

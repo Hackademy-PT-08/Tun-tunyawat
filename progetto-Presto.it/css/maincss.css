@@ -182,3 +182,23 @@ body{
 #text-short {
     width: 80%;
 }
+
+
+
+/* MODAL */
+
+.detail img{
+    width: 25%;
+    margin: 0;
+}
+
+.detail p{
+    float: right;
+    margin-right: 50%;
+    margin-bottom: 0;
+} 
+
+
+@media screen and (min-width: 450px) {
+    
+}

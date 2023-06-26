@@ -7,6 +7,8 @@
             "name": "Iphone 13",
             "price": 799,
             "stock": 20,
+            "color": "",
+            "memory": ["128GB","256GB","512GB"],
             "detail":"CPU: A15-BIONIC,<br> RAM: 4GB,<br> DISPLAY: 6.1', <br> BATTERY: 3240 MAH <br> SELFIE-CAMERA: 12 mp, <br> BACK-CAMERA: 12 mp",
             "image": "https://m.media-amazon.com/images/I/71dpTXFz+dL._AC_SX522_.jpg"
         },

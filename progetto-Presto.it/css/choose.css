@@ -1,0 +1,70 @@
+.row img{
+    float: right;
+    width: 40%;
+    margin-right: 100px;
+}
+
+
+
+
+/* DETAIL */
+
+.row h5 {
+    font-size: 2rem;
+}
+
+.line {
+    width: 120px;
+    height: 3px;
+    background-color: black;
+    float: left;
+
+}
+
+.line p {
+    font-size: 1.5rem;
+    margin-left: 20px;
+}
+
+.detail{
+    border: solid 2px rgb(134, 134, 134);
+    width: 500px;
+    height: 440px;
+    border-radius: 10px;
+}
+
+/* Color CHoose */
+
+#color-choose{
+    display: flex;
+}
+
+
+#color-choose button{
+    margin: 10px;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+/* Memory Choose */
+
+#memory-choose {
+    display: flex;
+}
+#memory-choose button {
+    margin: 10px;
+    background-color: grey;
+    color: white;
+}
+
+/* ADD TO CART BTN */
+
+#btn button {
+    border: none;
+    border-radius: 10px;
+    width: 150px;
+    height: 50px;
+    color: white;
+    margin: 10px;
+    
+}
